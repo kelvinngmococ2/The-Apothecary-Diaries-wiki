@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>The Apothecary Diaries - Official Fan Site</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <link href="style.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+  </head>
+  <body>
+    <!-- Enhanced Navbar for The Apothecary Diaries -->
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#" id="homeBrand">
+          <i class="fas fa-leaf me-2"></i>The Apothecary Diaries
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#" id="homeLink">
+                <i class="fas fa-home me-1"></i>Home
+              </a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <i class="fas fa-tv me-1"></i>Seasons
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="season1.html">Season 1</a></li>
+                <li><a class="dropdown-item" href="season2.html">Season 2</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" id="nextEpisodeLink">Next Episode</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" id="charactersLink">Characters</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" id="galleryLink">Gallery</a>
+            </li>
+          </ul>
+          <div class="d-flex">
+            <div class="countdown-display me-3" id="countdownDisplay" style="display: none;">
+              <span class="text-light">Next Episode: </span>
+              <span class="countdown-timer text-warning" id="countdownTimer"></span>
+            </div>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search episodes..." aria-label="Search"/>
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </div>
+      </nav>
+
+    <!-- Season/Episode Information -->
+    <div class="modal fade" id="seasonModal" tabindex="-1" aria-labelledby="seasonModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="seasonModalLabel">Season Information</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body" id="seasonModalBody">
+            <!-- Season content will be loaded here -->
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Main content area -->
+    <div class="container-fluid">
+      <div class="row">
+        <!-- Left side content -->
+        <div class="col-md-6">
+          <div class="container">
+            <!-- Content here -->
+             <h1>This is the Apothecary</h1>
+          </div>
+          <div class="series-info">
+            <h2 class="series-title">The Apothecary Diaries</h2>
+            <p class="series-description">
+              A captivating anime series that follows Maomao, a young woman with exceptional knowledge of medicine and poisons. 
+              After being kidnapped and sold to the imperial palace, she uses her apothecary skills to solve mysteries and navigate 
+              the complex political intrigues of the inner palace.
+            </p>
+            
+            <p class="series-paragraph">
+              <span class="series-highlight">The Story:</span> Set in a fictional ancient Chinese-inspired empire, the series follows Maomao, 
+              a brilliant young apothecary who finds herself working in the imperial palace's rear palace after being kidnapped and sold 
+              as a servant. Despite her lowly position, Maomao's extensive knowledge of medicine, poisons, and herbs makes her an 
+              invaluable asset in solving the palace's many mysteries.
+            </p>
+            
+            <p class="series-paragraph">
+              <span class="series-highlight">The Main Character:</span> Maomao is a fascinating protagonist - intelligent, resourceful, 
+              and unafraid to use her knowledge of poisons and medicine to help others, even when it puts her own life at risk. 
+              Her unique perspective as an apothecary allows her to see things that others miss, making her an excellent detective 
+              in the palace's complex political environment.
+            </p>
+            
+            <p class="series-paragraph">
+              <span class="series-highlight">The Setting:</span> The imperial palace serves as a beautiful and dangerous backdrop, 
+              filled with intricate political schemes, hidden agendas, and deadly secrets. The historical setting combines elements 
+              of ancient Chinese culture with fantasy elements, creating a rich and immersive world that feels both familiar and 
+              exotic.
+            </p>
+            
+            <p class="series-paragraph">
+              <span class="series-highlight">Why It's Special:</span> What sets The Apothecary Diaries apart is its unique blend 
+              of medical mystery, historical drama, and political intrigue. The series doesn't rely on typical anime tropes but 
+              instead focuses on intelligent problem-solving, character development, and a deep appreciation for the art of medicine 
+              and herbalism. Each episode presents new mysteries that Maomao must solve using her knowledge of poisons, medicines, 
+              and human nature.
+            </p>
+            
+            <p class="series-paragraph">
+              <span class="series-highlight">The Animation:</span> The series features stunning animation that brings the imperial 
+              palace to life with intricate details, beautiful character designs, and atmospheric lighting that perfectly captures 
+              the mysterious and elegant tone of the story. The attention to historical detail in costumes, architecture, and 
+              cultural elements adds authenticity to the fantasy setting.
+            </p>
+          </div>
+        </div>
+        
+        <!-- Right side image -->
+        <div class="col-md-6">
+          <div class="image-container">
+            <img src="https://www.bubbleblabber.com/wp-content/uploads/2023/09/TheApothecaryDiaries_16x9_1920x1080-1360x765.png" alt="The Apothecary Diaries" class="main-image">
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End of main content area -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
+
+
